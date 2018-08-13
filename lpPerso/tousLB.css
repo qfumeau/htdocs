@@ -1,0 +1,109 @@
+.page-center{
+    text-align:center;
+}
+#monHeader
+{
+    height:100px;
+    background-color: bisque;
+}
+#monFooter
+{
+    margin-top:5%;
+    height:100px;
+    background-color: bisque;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#maBanner
+{
+    height:300px;
+    background-color: aquamarine;
+}
+#la-ligne1
+{
+    padding:5% 5% 0 5%;
+}
+#la-ligne2
+{
+    padding:0 5% 0 5%;
+}
+#titreCarte
+{
+    color:#164d57;
+
+}
+#uneCarte
+{
+    background:#fff;
+    height:269px;
+    max-width:611px;
+    margin-bottom:10%;
+    border-radius:5px;
+    box-shadow: 3px 3px 22px grey;
+    position: relative;
+}
+#titre
+{
+    height:190px;
+}
+#titreBouton
+{
+    position: relative;
+    height: 269px;
+    margin-left:-2%;
+}
+.display-block
+{
+    display:block;
+}
+.img
+{
+    padding:0;
+}
+img
+{
+    height:269px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+@media (max-width:1400px)
+{
+    .col-xl-4
+    {
+        margin-bottom:5%;
+    }
+    img 
+    {
+        height:200px;
+    }
+    #uneCarte
+    {
+        height:200px;
+    }
+    #titreBouton
+    {
+    position: relative;
+    height: 200px;
+    }
+    #titre
+    {
+        margin-left:-10px;
+    }
+    #bouton
+    {
+        margin-left:22px;
+    }
+}
+@media(max-width:992px)
+{
+    #uneCarte
+    {
+        height: auto;
+    }
+    img
+    {
+        height:auto;
+        width:100%
+    }
+}

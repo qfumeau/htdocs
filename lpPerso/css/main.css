@@ -1,0 +1,15 @@
+#col-8,#col-4{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.carousel{
+    height: 300px;
+    width: 500px;
+    text-align: center
+}
+
+#carousel{
+    text-align: center;
+}
+

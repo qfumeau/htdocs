@@ -1,0 +1,155 @@
+.page-center{
+    text-align:center;
+}
+#header-text
+{
+    padding-top:3%;
+}
+#header-text a
+{
+    margin-left:2%;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #878787;
+    line-height: 17px;
+    font-weight: bold;
+    font-family: 'Montserrat',Helvetica,Sans-serif;
+    text-transform: uppercase;
+}
+#header-text a:hover
+{
+    background:#edf6fd;
+}
+#tablet-container
+{
+    display: none;
+}
+#monHeader
+{
+    height:100px;
+    background-color: bisque;
+}
+#monFooter
+{
+    margin-top:5%;
+    height:100px;
+    background-color: bisque;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#maBanner
+{
+    height:300px;
+    background-color: aquamarine;
+}
+#la-ligne1
+{
+    padding:3% 5% 0 5%;
+}
+#titreCarte
+{
+    color:#164d57;
+
+}
+#uneCarte
+{
+    background:#fff;
+    height:273px;
+    width:368px;
+    margin-bottom:5%;
+    border-radius:5px;
+    box-shadow: 3px 3px 22px grey;
+    position: relative;
+}
+#titre
+{
+    height:190px;
+}
+#titreBouton
+{
+    position: relative;
+    height: 269px;
+    margin-left:-2%;
+}
+.display-block
+{
+    display:block;
+}
+.img
+{
+    padding:0;
+}
+.center-cards
+{
+    margin-right:13%;
+}
+#my-image
+{
+    
+    width:122px!important;
+}
+.img img
+{
+    height:273px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+@media(min-width:1200px)
+{
+    .col-xl-3
+    {
+        max-width: none;
+    }
+}
+@media (max-width:1400px)
+{
+    
+    .center-cards
+    {
+        display: none;
+    }
+    .col-xl-4
+    {
+        margin-bottom:5%;
+    }
+    #titreBouton
+    {
+    position: relative;
+    height: 200px;
+    }
+    #titre
+    {
+        margin-left:-10px;
+    }
+    #bouton
+    {
+        margin-left:22px;
+    }
+}
+@media(max-width:992px)
+{
+    #uneCarte
+    {
+        height: auto;
+    }
+    img
+    {
+        height:auto;
+        width:100%
+    }
+}
+@media(max-width:600px)
+{
+    #uneCarte
+    {
+        width:280px;
+    }
+    #titre
+    {
+        height:160px
+    }
+}

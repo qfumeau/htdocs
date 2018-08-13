@@ -1,0 +1,102 @@
+/**
+{
+    margin: 0;
+    padding: 0;
+}*/
+
+/* PAS TOUCHE */
+
+.hs-form
+{
+    width: 95%;
+    height: 95%;
+    background: rgba(0,0,0,.6);
+    padding: 20px 30px;
+    font-size: 12px;
+    margin: auto;
+    line-height: 1;
+}
+
+.hs-form-field
+{
+    margin: 10px;
+}
+
+.hs-form .hs-form-required
+{
+    display: none;
+}
+
+.hs-form label
+{
+    color: white;
+}
+
+.hs-form .hs-field-desc
+{
+    color: white;
+    font-size: 14px;
+}
+
+.hs-form input[type="text"],
+.hs-form input[type="password"],
+.hs-form input[type="email"],
+.hs-form input[type="tel"],
+textarea,
+.hs-form select
+{
+    width: 100%;
+    display: block;
+    padding: 5px 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 2px;
+    height: 40px;
+    /*background: {{ colorOffset }};*/
+    color: #333333;
+}
+
+textarea
+{
+    height: 70px;
+}
+
+.hs-richtext
+{
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.hs-form input[type="radio"]
+{
+    margin-right: 10px;
+    width: auto !important;
+    display: inline;
+}
+
+.hs-form ul, .hs-form ol
+{
+    list-style: none !important;
+    padding-left: 0;
+}
+
+.hs-button
+{
+    padding: 15px 10px;
+    background: #6ab04c;
+    color: #fff;
+    display:block;
+    margin-top:30px;
+    text-align:center;
+    font-size: auto;
+    border:none;
+    display:block;
+    width:100%;
+    border-radius:2px;
+}
+
+.hs-button:hover
+{
+    cursor: pointer;
+}

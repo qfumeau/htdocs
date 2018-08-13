@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="../jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <meta charset="utf-8">
+    <!-- Compiled and minified JavaScript -->
+    <script src="materialize/js/materialize.js"></script>
+    <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="mesStyles.css">    
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><img id="logoBtb" src="../logoBtb.png"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><ion-icon name="menu" id="menu"></ion-icon></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="tel:0980421020"><ion-icon name="call"></ion-icon> 09.80.42.10.20</a></li>
+          <li><a href="#"><ion-icon name="contacts"></ion-icon> Être rappelé</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><img id="logoMenu" src="../logoBtb.png"></li>
+      <li><a href="tel:0980421020"><ion-icon name="call" id="call" ></ion-icon>09.80.42.10.20</a></li>
+      <li><a href="#"><ion-icon name="contacts" id="contact"></ion-icon>Être rappelé</a></li>
+    </ul>
+    <div id="testRond" class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+  
+        <div class="spinner-layer spinner-red">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+  
+        <div class="spinner-layer spinner-yellow">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+  
+        <div class="spinner-layer spinner-green">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    });
+</script>

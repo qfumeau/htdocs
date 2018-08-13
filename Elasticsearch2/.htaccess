@@ -1,0 +1,3 @@
+RewriteEngine On
+
+#RewriteRule ^result/([0-9]+)$ result.php?id=$1

@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+   <head>
+     <title>Sacs publicitaires - Prêt à Porter</title>
+      <script src="BS4/js/jquery-3.3.1.js"></script>
+      <link rel="stylesheet" href="materialize/css/materialize.css">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="BS4/css/bootstrap.css">
+      <script src="materialize/js/materialize.js"></script>
+      <script src="BS4/js/bootstrap.js"></script>
+      <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+      <link rel="stylesheet" href="lpVinSpiritueux.css">
+   </head>
+   <body>
+     <!-- Modal rappel-->
+     <div class="modal fade" id="modalRappel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+              <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalCenterTitle">Être rappelé</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+                 </button>
+              </div>
+              <div class="modal-body">
+                 <!--[if lte IE 8]>
+                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                 <![endif]-->
+                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                 <script>
+                    hbspt.forms.create({
+                        portalId: "4509877",
+                        formId: "9afb5d99-2905-47f5-802d-799bf3e75f1f",
+                        css: ""
+                    });
+                 </script>
+              </div>
+           </div>
+        </div>
+     </div>  
+      <nav>
+         <div class="nav-wrapper">
+            <a href="http://localhost/lpMetier/lpVinSpiritueux.html" class="brand-logo"><img id="logoBtb" src="../logoBtb.png"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+               <ion-icon name="menu" id="menu"></ion-icon>
+            </a>
+            <ul class="right hide-on-med-and-down">
+               <li>
+                  <a href="tel:0980421020">
+                     <ion-icon class="contact-pc" name="call"></ion-icon>
+                     <br/>
+                     <span class="text-contact" >09.80.42.10.20</span>
+                  </a>
+               </li>
+               <li>
+                  <a class="rappel" href="#">
+                     <ion-icon class="contact-pc" name="contacts"></ion-icon>
+                     <br/>
+                     <span class="text-contact">Être rappelé</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <ul class="sidenav" id="mobile-demo">
+         <li><img id="logoMenu" src="../logoBtb.png"></li>
+         <li>
+            <a href="tel:0980421020">
+               <ion-icon name="call" id="call" ></ion-icon>
+               09.80.42.10.20
+            </a>
+         </li>
+         <li>
+            <a class="rappel" href="#">
+               <ion-icon name="contacts" id="contact"></ion-icon>
+               Être rappelé
+            </a>
+         </li>
+      </ul>
+      <div class="banner-titre">
+         <h1>Sacs publicitaires - Prêt à Porter</h1>
+      </div>
+
+      <!-- Bannière produit desktop -->
+      <div class="desktop-only banner-product">
+         <div id="product-container" class="container-fluid">
+            <div class="row" id="row-product">
+               <div class="col-lg-2">
+                  <img class="img-product" src="img/pret-a-porter/kraft_nike_pap.png">
+                  <h4>Sac papier Kraft</h4>
+                  <p class="descr-product"><br>Délais de livraison : 2 semaines<br>À partir de 199*€ pour 500 sacs</p>
+               </div>
+               <div class="col-lg-2">
+                  <img class="img-product" src="img/pret-a-porter/kraft_wistitee.png">
+                  <h4>Sac papier Kraft</h4>
+                  <p class="descr-product"><br>Délais de livraison : 2 semaines<br>À partir de 199*€ pour 500 sacs</p>
+               </div>
+               <div class="col-lg-2">
+                  <img class="img-product" src="img/pret-a-porter/luxe_adidas.png">
+                  <h4>Sac Luxe</h4>
+                  <p class="descr-product"><br>Délais de livraison : 1 semaine<br>À partir de 399*€ pour 250 sacs</p>
+               </div>
+               <div class="col-lg-2">
+                  <img class="img-product" src="img/pret-a-porter/luxe_petit_bikini.png">
+                  <h4>Sac Luxe</h4>
+                  <p class="descr-product"><br>Délais de livraison : 1 semaine<br>À partir de 399*€ pour 250 sacs</p>
+               </div>
+            </div>
+            <div class="row" id="row-form">
+                  <!--[if lte IE 8]>
+                  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                  <![endif]-->
+                  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                  <script>
+                    hbspt.forms.create({
+                    portalId: "4509877",
+                    formId: "6bd4e866-909f-42c5-8d0d-75b26a368328"
+                  });
+                  </script>
+            </div>
+         </div>
+      </div>
+
+      <!-- Banière produit mobile -->
+      <div id="banner-product" class="mobile-only">
+        <div id="carousel-produit" class="mobile-only carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="product">
+                    <img class="img-product" src="img/pret-a-porter/kraft_nike_pap.png">
+                    <h4>Sac papier Kraft</h4>
+                    <p class="descr-product"><br>Délais de livraison : 2 semaines<br>À partir de 199*€ pour 500 sacs</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product">
+                      <img class="img-product" src="img/pret-a-porter/kraft_wistitee.png">
+                      <h4>Sac papier Kraft</h4>
+                      <p class="descr-product"><br>Délais de livraison : 2 semaines<br>À partir de 199*€ pour 500 sacs</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product">
+                      <img class="img-product" src="img/pret-a-porter/luxe_adidas.png">
+                      <h4>Sac Luxe</h4>
+                      <p class="descr-product"><br>Délais de livraison : 1 semaine<br>À partir de 399*€ pour 250 sacs</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product">
+                      <img class="img-product" src="img/pret-a-porter/luxe_petit_bikini.png">
+                      <h4>Sac Luxe</h4>
+                      <p class="descr-product"><br>Délais de livraison : 1 semaine<br>À partir de 399*€ pour 250 sacs</p>
+                  </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-produit" role="button" data-slide="prev">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#carousel-produit" role="button" data-slide="next">
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </div>
+        <!--[if lte IE 8]>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+            portalId: "4509877",
+            formId: "6281d2c7-d210-480a-aba7-94c514a9aaa9"
+          });
+        </script>
+      </div>
+
+      <!-- Avis desktop -->
+      <div id="avis-container" class="desktop-only container-fluid">
+         <div id="title-avis" class="row">
+            <h2>Avis vérifiés</h2>
+         </div>
+         <div id="row-avis" class="row">
+            <div class="col-lg-3">
+                <img class="img-profil" src="img/pret-a-porter/avis-Pandolfi.jpg">
+                <div class="nom-descr">
+                  <h4>Sibylle Pandolfi</h4>
+                  <span class="descr-avis">Librairie Le Feu Foller</span><br/>
+                  <img class="img-etoile" src="img/5-etoiles.png">
+               </div>
+               <p class="message-avis"><br>
+                  <ion-icon name="quote"></ion-icon>   
+                  Nous avions fait deux commandes importantes pour notre société. Le servie a été absolument
+                  parfait dans la communication, la réalisation et les délais.
+                  Je recommande.
+                     <ion-icon name="quote"></ion-icon>
+               </p>
+            </div>
+            <div class="col-lg-3">
+                <img class="img-profil" src="img/pret-a-porter/avis-kubiak.jpg">
+                <div class="nom-descr">
+                 <h4>Alexandre Kubiak</h4>
+                   <span class="descr-avis">Les Grands Alambics</span><br/>
+                   <img class="img-etoile" src="img/5-etoiles.png">
+                </div>
+                <p class="message-avis"><br>
+                   <ion-icon name="quote"></ion-icon>   Communication, réactivité, service, qualité, délais, prix ...
+                   <br>Tout est très sastifaisant ! Je recommande <ion-icon name="quote"></ion-icon>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img class="img-profil" src="img/pret-a-porter/avis-Guignot.jpg">
+               <div class="nom-descr">
+                  <h4>Lorette Guignot</h4>
+                  <span class="descr-avis">Maison Veyret</span><br/>
+                  <img class="img-etoile" src="img/5-etoiles.png">
+               </div>
+               <p class="message-avis"><br><br>
+                  <ion-icon name="quote"></ion-icon>   Service et réactivité excellents.   <ion-icon name="quote"></ion-icon>
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Avis mobile -->
+      <h2 class="mobile-only" id="avis-title">Avis vérifiés</h2>
+      <div id="carousel-avis" class="mobile-only carousel slide" data-interval="false" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="avis">
+                <img class="img-profil" src="img/pret-a-porter/avis-Pandolfi.jpg">
+                <div class="nom-descr">
+                  <h4>Sibylle Pandolfi</h4>
+                  <span class="descr-avis">Librairie Le Feu Foller</span><br/>
+                  <img class="img-etoile" src="img/5-etoiles.png">
+               </div>
+               <p class="message-avis">
+                  <ion-icon name="quote"></ion-icon>   
+                  Nous avions fait deux commandes importantes pour notre société. Le servie a été absolument
+                  parfait dans la communication, la réalisation et les délais.
+                  Je recommande.
+                     <ion-icon name="quote"></ion-icon>
+               </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+              <div class="avis">
+                <img class="img-profil" src="img/pret-a-porter/avis-kubiak.jpg">
+               <div class="nom-descr">
+                <h4>Alexandre Kubiak</h4>
+                  <span class="descr-avis">Les Grands Alambics</span><br/>
+                  <img class="img-etoile" src="img/5-etoiles.png">
+               </div>
+               <p class="message-avis"><br>
+                  <ion-icon name="quote"></ion-icon>   Communication, réactivité, service, qualité, délais, prix ...
+                  <br>Tout est très sastifaisant ! Je recommande <ion-icon name="quote"></ion-icon>
+               </p>
+               </div>
+          </div>
+          <div class="carousel-item">
+              <div class="avis">
+                  <img class="img-profil" src="img/pret-a-porter/avis-Guignot.jpg">
+               <div class="nom-descr">
+                  <h4>Lorette Guignot</h4>
+                  <span class="descr-avis">Maison Veyret</span><br/>
+                  <img class="img-etoile" src="img/5-etoiles.png">
+               </div>
+               <p class="message-avis"><br><br>
+                  <ion-icon name="quote"></ion-icon>   Service et réactivité excellents.   <ion-icon name="quote"></ion-icon>
+               </p>
+               </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-avis" role="button" data-slide="prev">
+            <i class="fas fa-angle-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carousel-avis" role="button" data-slide="next">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="presentation">
+        <img src="img/photo-jeanbaptiste.png">
+        <h2>LE MOT DU FONDATEUR</h2>
+        <br/>
+        <p class="presentation-text"><ion-icon name="quote"></ion-icon> Depuis 2008 chez BtoBag, nous concevons et 
+          fabriquons des sacs publicitaires personnalisés répondant aux dernières exigences technologiques et 
+          aux normes les plus avancées en matière de développement durable. Nos usines sont françaises et européennes 
+          afin de répondre rapidement au besoin de flexibilité et de qualité de nos clients. Nous avons pour principe 
+          de travailler main dans la main avec nos clients pour définir le sac en papier, plastique ou réutilisable 
+          qui vous ressemble.  <ion-icon name="quote"></ion-icon>
+          </p><br>
+            <p class="signature">Jean-Baptiste CAIVEAU – Dirigeant</p>
+      </div>
+
+      <div class="footer">
+         BtoBag - 166 Cours Maréchal Galliéni 33400 Talence - France<br>
+         Naf: 4676Z - TVA : FR 15 500 956 404 - RCS: 500 956 404 SARL au capital de 70.000 €
+      </div>
+   </body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+<script>
+  $(document).ready(function(){
+     $('.sidenav').sidenav();
+  });
+  $('.rappel').click(()=>{
+    $('#modalRappel').modal("show")
+  });
+  /*$('#myModal').modal("show")*/
+  $("#carousel-produit").swipe({
+
+swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+  if (direction == 'left') $(this).carousel('next');
+  if (direction == 'right') $(this).carousel('prev');
+
+},
+allowPageScroll:"vertical"
+
+});
+$("#carousel-avis").swipe({
+
+swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+  if (direction == 'left') $(this).carousel('next');
+  if (direction == 'right') $(this).carousel('prev');
+
+},
+allowPageScroll:"vertical"
+
+});
+</script>

@@ -1,0 +1,77 @@
+#progress{
+	background: #6ab04d;
+	height: 5px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999; /* Peut être important si vous avez un menu en position fixe */
+}
+
+.test{
+	background:red;
+}
+
+.hs-form input[type="submit"]
+{
+	background:#7ec255;
+	color:#212529;
+	padding:11px;
+	font-size:13px;
+	font-weight:lighter;
+	border-radius:0;
+	text-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.hs-form input[type="submit"]:hover
+{
+	color:white;
+	text-shadow: none;
+	box-shadow: none!important;
+	border: none!important;
+}
+.hs-form .input{
+	width:150px;
+}
+/* id de l'input */
+#email-ad68abea-7329-4438-9a8d-f1eb31bf4fd2{
+	padding: 7px;
+	border-radius:0;
+}
+/* div contenant l'input et le label */
+.hs_email{
+	width:304px;
+}
+/* id du label */
+#label-email-ad68abea-7329-4438-9a8d-f1eb31bf4fd2{
+	color:white;
+	margin-right:2%;
+	font-weight:400;
+}
+/* div contenant le bouton */
+.hs-form .actions{
+	padding-left:6px!important;
+}
+
+@media(min-width:480px){
+	#label-email-ad68abea-7329-4438-9a8d-f1eb31bf4fd2{
+		display:inline-block;
+	}
+	.hs-form .input{
+		display:inline-block;
+	}
+	/* div contenant l'input et le label */
+	.hs_email{
+		display:inline-block;
+	}
+	.hs_submit{
+		display:inline-block;
+	}
+}
+@media(max-width:480px){
+	.hs-form .actions{
+		margin:0!important;
+		padding:0!important;
+	}
+}

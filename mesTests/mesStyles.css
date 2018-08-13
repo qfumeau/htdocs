@@ -1,0 +1,63 @@
+#testRond{
+    margin-top:25%;
+    margin-left:50%;
+    display: none;
+}
+nav{
+    background-color:#dfe6e9
+}
+#logoMenu{
+    height: auto;
+    width: 320px;
+    margin-left: 21%;
+    margin-top:5%
+}
+#menu{
+    font-size:50px
+}
+nav .brand-logo{
+    margin-left:10px;
+}
+#logoBtb{
+    width: 160px;
+    height: auto;
+
+}
+nav ul a{
+    color:black; 
+    font-size:25px
+}
+
+nav .sidenav-trigger{
+    float:left
+}
+
+@media(max-width:990px){
+    .brand-logo{
+        left:43%!important;
+    }
+    nav{
+        height:150px
+    }
+    #logoBtb {
+        margin-right: -194px;
+        margin-top: 7px;
+        width: 340px;
+        height: auto;
+    }
+    #menu{
+        font-size:135px
+    }
+    .sidenav{
+        width:60%
+    }
+    .sidenav li>a{
+        font-size:40px;
+        height:120px;
+        padding-top:30px
+    }
+    #call, #contact{
+        margin-right:55px;
+        font-size:45px
+    }
+}

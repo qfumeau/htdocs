@@ -1,0 +1,146 @@
+.monForm{
+    margin-left:5%;
+}
+
+.result{
+    margin-left: 5%;
+}
+
+h1{
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+    
+}
+
+th{
+    font-size:150%;
+    width: 50%;
+}
+
+td{
+    font-size:80%;
+
+}
+
+h2{
+    margin-left: 3%;
+}
+
+label{
+    margin-right:3%;
+}
+
+.myLabel{
+    margin-right: 2.2%;
+}
+
+.count{
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.searchInput{
+    margin-right: 20%;
+}
+
+.mb-3{
+    width: 50%;
+}
+
+.noResult{
+    margin-left: 5%;
+}
+
+#leForm{
+    display: none;
+}
+
+.btn-info{
+    margin-left: 5%;
+}
+
+#titre{
+    text-align : center ;
+}
+
+#clickme3{
+    display: none;
+}
+
+#ouvert1,#ouvert2,#ouvert3{
+    display: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+h3{
+    color:black;
+}
+
+.tab{
+    margin-right:2%;
+}
+
+#btnColl{
+    background:none;
+}
+
+#footer{
+    font-size:80%
+}
+
+#mesResult{
+    width: 188px;
+    margin:0;
+    padding: 0;
+}
+
+.dropdown{
+    width: 185px;
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.mesResult li{
+    padding: 0px;
+    cursor: pointer;
+}
+.cutText{
+    
+    word-wrap: break-word;
+}
+#mesResult li:hover{
+    background: #dfe6e9;
+    cursor: pointer;
+}
+
+#results{
+    margin-left: 3.5%;
+}
+
+input{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 6px;
+}
+
+#advSearch{
+    background: white;
+    color:black;
+    align-content: center;
+}
+#advSearch:hover{
+    background: #6a7378;
+    color:white;
+}

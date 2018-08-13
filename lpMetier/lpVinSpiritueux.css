@@ -1,0 +1,697 @@
+h2{
+    color:#164d57;
+}
+
+/*****************************/
+/*          Nav bar         */
+/***************************/
+
+/*#region Nav bar*/
+nav{
+    background-color:#fff;
+    height:114px
+}
+nav .sidenav-trigger{
+    float:left
+}
+.nav-wrapper{
+    padding-left:20%;
+    padding-right:20%;
+}
+nav ul a:hover{
+    text-decoration: none;
+}
+nav ul a{
+    font-size:18px;
+    line-height: 1;
+    text-align:center;
+    height:114px;
+    padding-top:23px;
+}
+
+nav .brand-logo{
+    margin-left:10px;
+    padding-top:20px;
+}
+#logoBtb{
+    width: 200px;
+    height: auto;
+
+}
+#logoMenu{
+    height: auto;
+    width: 320px;
+    margin-left: 21%;
+    margin-top:5%;
+    
+}
+.contact-pc{
+    font-size:50px;
+    color:#84bf5f;
+}
+.text-contact{
+    color:#164d57;
+    font-weight:500;
+}
+#menu{
+    font-size:50px;
+    color:#164d57;
+}
+/*#endregion Nav bar*/
+
+/*****************************/
+/*          Body            */
+/***************************/
+
+/*#region body*/
+.banner-titre{
+    padding-top:10px;
+    text-align:center;
+    background-color:#164d57;
+    color:#fff;
+    height:75px;
+}
+.banner-product{
+    padding-bottom:5%;
+    background-image: url("img/pret-a-porter/pret-a-porter.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:auto;
+    max-height:756px;
+}
+
+/**** les produits ****/
+#product-container{
+    text-align: center;
+    padding-top:30px;
+}
+#row-product{
+    width:1140px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/****** Carte produit *****/
+.col-lg-2{
+    width:255px;
+    max-width:255px;
+    flex:none!important;
+    height:385px;
+    margin:15px;
+    background-color:rgba(255, 255, 255,0.8);
+    padding-top:20px;
+    text-align:center;
+}
+.img-product{
+    width:auto;
+    height:250px;
+}
+.descr-product{
+    font-weight: 500;
+}
+
+#row-form{
+    padding-left:2%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgba(255,255,255,0.8);
+    width:1300px;
+}
+.form-hs{
+    /*background-color:rgba(255, 255, 255,0.8);
+    width:1437px;
+    height:258px;*/
+}
+
+/**** Les avis ****/
+#avis-container{
+
+}
+#title-avis{
+    padding-top:30px;
+    text-align: center;
+    display:block;
+}
+#row-avis{
+    margin-left:auto;
+    margin-right:auto;
+}
+/***** Carte avis *****/
+.col-lg-3{
+    flex:none!important;
+    padding-top:20px;
+    max-width:375px;
+    margin-left:31px;
+    margin-right:31px;
+    width:375px;
+    height:343px;
+    background-color:#164d57;
+    display:grid;
+    grid-template-columns : 141px;
+    grid-template-rows : 141px;
+}
+.img-profil{
+    grid-row:1;
+    grid-column: 1;
+    border-radius:70px;
+    width:141px;
+}
+.nom-descr{
+    grid-row:1;
+    grid-column: 2;
+    color:#84bf5f;
+    padding-top:10px;
+    text-align: center;
+}
+.descr-avis{
+    text-align: center;
+    color:white;
+}
+.img-etoile{
+    padding-top:10px;
+    width:125px;
+}
+.message-avis{
+    padding : 15px 10px 20px 10px;
+    text-align:center;
+    grid-row: 2;
+    grid-column: 1/3;
+    color:white;
+}
+
+/***** Présentation ****/
+.presentation{
+    padding : 2% 15% 1% 15%;
+    text-align:center;
+    margin-top:50px;
+    background-color:#dfe6e9;
+}
+.presentation-text{
+    text-align: justify;
+    color:#164d57;
+    font-weight:400;
+}
+.signature{
+    text-align: center;
+    font-weight:bold;
+    color:#164d57;
+}
+/*#endregion body*/
+
+/*****************************/
+/*          Footer          */
+/***************************/
+
+.footer{
+    padding:1% 0 1% 0;
+    background-color:#155567;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: bold;
+}
+
+/*****************************/
+/*       Media queries      */
+/***************************/
+
+/*#region Media queries 1*/
+@media(min-width:1500px){
+    #row-form{
+        width:1300px;
+    }
+    #row-avis{
+        width:1425px;
+    }
+    .col-lg-3{
+        margin-left:50px;
+        margin-right:50px;
+    }
+}
+@media(min-width:910px){
+    .desktop-only{
+        display: block;
+    }
+    .mobile-only{
+        display: none;
+    }
+}
+/*#endregion media query 1*/
+
+/*#region responsive*/
+@media(max-width:990px){
+    .mobile-only{
+        display: block;
+    }
+    .desktop-only{
+        display:none;
+    }
+    /*****************************/
+    /*          Nav bar         */
+    /***************************/
+    /*#region responsive nav bar*/
+    .nav-wrapper{
+        padding:0;
+    }
+    .brand-logo{
+        left:42%!important;
+    }
+    nav{
+        height:180px
+    }
+    #logoBtb {
+        margin-right: -140px;
+        margin-top: 7px;
+        width: 340px;
+        height: auto;
+    }
+    #menu{
+        font-size:135px
+    }
+    .sidenav-trigger{
+        padding-top:18px;
+    }
+    .sidenav{
+        width:60%
+    }
+    .sidenav li>a{
+        font-size:40px;
+        height:120px;
+        padding-top:30px
+    }
+    #call, #contact{
+        margin-right:55px;
+        font-size:45px
+    }
+    /*#endregion responsive nav bar*/
+    
+    /*****************************/
+    /*          body            */
+    /***************************/
+
+    /*#region body responsive*/
+    h1{
+        font-size:3.5em;
+    }
+    .modal-dialog{
+        max-width: 850px;
+    }
+    .modal-title{
+        font-size:45px;
+    }
+    .modal-content{
+        height:auto;
+    }
+    .close{
+        font-size:4.5rem;
+    }
+    .banner-titre{
+        height:85px;
+    }
+    #banner-product{
+        background-image:url("img/pret-a-porter/pret-a-porter.jpg");
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: auto 100%;
+        padding-bottom: 5%;
+    }
+    #carousel-produit{
+        height:75%;
+    }
+    .carousel-inner{
+        height:900px;
+    }
+    .product{
+        margin-top:50px;
+        margin-left:auto;
+        margin-right:auto;
+        height:800px;
+        width:700px;
+        background-color:rgba(255, 255, 255,0.8);
+        padding-top:20px;
+        text-align:center;
+    }
+    .img-product{
+        height:500px;
+    }
+    h4{
+        margin-top:20px;
+        font-size:50px;
+    }
+    h2{
+        font-size:45px;
+    }
+    .descr-product{
+        font-size:40px;
+    }
+    .fa, .fas{
+        font-size:100px;
+    }
+    /* les avis  */
+    #avis-title{
+        text-align:center;
+        margin-top:5%;
+        font-size:50px;
+    }
+    #carousel-avis .fas{
+        color:black;
+    }
+    .avis{
+        border-radius:20px;
+        margin-top:30px;
+        padding-top:20px;
+        margin-left:auto;
+        margin-right:auto;
+        width:720px;
+        height:auto;
+        background-color:#164d57;
+        display:grid;
+        grid-template-columns : 200px;
+        grid-template-rows : 200px;
+    }
+    .message-avis{
+        font-size:35px;
+        padding: 80px 40px 20px 40px;
+    }
+    .img-etoile{
+        width:250px;
+    }
+    .descr-avis{
+        font-size:28px;
+    }
+    .img-profil{
+        padding-left:10px;
+        border-radius:135px;
+        width:250px;
+    }
+    
+    /* la présentation */
+    .presentation{
+        margin-top:0;
+        padding:2% 5% 1% 5%;
+    }
+    .presentation-text, .signature{
+        font-size:30px;
+    }
+
+    /* le footer */
+    .footer{
+        font-size:24px
+    }
+    
+    /*#endregion body responsive*/
+}
+
+/*#endregion responsive*/
+
+/*****************************/
+/*          form hs         */
+/***************************/
+
+/*#region form HS*/
+@media(min-width:1000px){
+    .hs-form
+    {
+        width: 95%;
+        height: 95%;
+        background: rgba(0,0,0,.6);
+        padding: 20px 30px;
+        font-size: 12px;
+        margin: auto;
+        line-height: 1;
+    }
+
+    .hs-form-field
+    {
+        margin: 0;
+    }
+
+    .hs-form .hs-form-required
+    {
+        display: none;
+    }
+    .hs-form .hs-form-radio-display
+    {
+    color:white;
+    }
+
+    .hs-form .hs-field-desc
+    {
+        color: white;
+        font-size: 14px;
+    }
+
+    .hs-form input[type="text"],
+    .hs-form input[type="password"],
+    .hs-form input[type="email"],
+    .hs-form input[type="tel"],
+    textarea,
+    .hs-form select
+    {
+        width: 100%;
+        display: block;
+        padding: 5px 10px;
+        border: none;
+        font-size: 14px;
+        border-radius: 2px;
+        height: 38px;
+        background-color: #fff;
+        /*background: {{ colorOffset }};*/
+        color: #333333;
+    }
+
+    textarea
+    {
+        height: 70px;
+    }
+
+    .hs-richtext
+    {
+        color: white;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .hs-form input[type="radio"]
+    {
+        margin-right: 10px;
+        width: auto !important;
+        display: inline;
+    }
+
+    .hs-form ul, .hs-form ol
+    {
+        list-style: none !important;
+        padding-left: 0;
+    }
+
+    .hs-button
+    {
+        padding: 15px 10px;
+        background: #e84118;
+        color: #fff;
+        display:block;
+        margin-top:30px;
+        text-align:center;
+        font-size: 15px;
+        font-weight:bold;
+        border:none;
+        display:block;
+        width:100%;
+        border-radius:2px;
+    }
+    #hsForm_9afb5d99-2905-47f5-802d-799bf3e75f1f .hs-button{
+    background-color:#84bf5f;
+    }
+    .hs-button:hover
+    {
+        cursor: pointer;
+    }
+
+    #hsForm_9afb5d99-2905-47f5-802d-799bf3e75f1f label
+    {
+        font-size:20px;
+        margin-bottom:10px;
+        color:white !important;
+    }
+    #label-rendez_vous-9afb5d99-2905-47f5-802d-799bf3e75f1f
+    {
+        margin-top:30px;
+    }
+    #hsForm_9afb5d99-2905-47f5-802d-799bf3e75f1f input[type="submit"]
+    {
+        font-size:20px;
+    }
+    #pi_ce_jointe-9b283e1b-d1ed-48e1-959e-eac015671dea
+    {
+    color:white;
+    }
+
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328{
+        background-color:rgba(255, 255, 255,0);
+        width:1437px;
+        height:222px;
+    }
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328 .input{
+        margin-left:20px;
+    }
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328 fieldset{
+        max-width:none;
+        max-height:70px;
+    }
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328 select{
+        height:48px;
+        width:400px;
+    }
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328 input[type="file"]{
+        background: none;
+        margin-left:-82px;
+    }
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328 fieldset.form-columns-2 .hs-form-field{
+        width:32.8%;
+    }
+    #email-6bd4e866-909f-42c5-8d0d-75b26a368328{
+        width:31.4%;
+    }
+    #vote_projet-6bd4e866-909f-42c5-8d0d-75b26a368328{
+        height:110px;
+    }
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328 .hs-submit{
+        margin-top:-90px;
+        width:255px;
+        margin-left:66%;
+    }
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328 .hs-button{
+        font-weight:bold;
+        font-size:15px;
+        height:25px;
+        text-transform:uppercase;
+        background-color:red;
+        color: #fff;
+        text-shadow: none;
+        background-image: none;
+        box-shadow: none;
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        border-radius: 4px;
+        transition: opacity 0.15s linear;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    #hsForm_6bd4e866-909f-42c5-8d0d-75b26a368328 .hs-error-msgs{
+        margin-left:18px;
+    }
+    .hs-vote_projet label{
+        margin-left:15px;
+    }
+    .hs_type_sac label{
+        margin-left:15px;
+    }
+}
+@media(max-width:990px){
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9{
+        padding-left:5%;
+        background-color:rgba(255, 255, 255,0.8);
+        padding-top:5%;
+        width:95%;
+        height:95%;
+        margin:auto;
+        line-height:1;
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 fieldset{
+        max-width: none!important;
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 input{
+        max-width: none;
+        height:50px;
+        font-size:30px;
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 select{
+        max-width: none;
+        height:50px;
+        font-size:30px;
+        width:91%;
+        
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 .hs_pi_ce_jointe label{
+        font-size:30px;
+        margin-top:5%;
+        margin-bottom:2%;
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 input[type="file"]{
+        margin-top:1%;
+        background-color:rgba(255, 255, 255,0);
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 textarea{
+        max-width: none;
+        height:350px;
+        font-size:30px;
+        background-color:#fff;
+        padding-top:15px;
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 .hs-button{
+        margin-left:20%;
+        height:60px;
+        text-shadow: none;
+        background-color: #e84118;
+        text-transform: uppercase;
+        background-image: none;
+        box-shadow: none;
+        border:none;
+        border-radius: 4px;
+        transition: none;
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 .hs-form-required{
+        display: none;
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 .hs_type_sac{
+        margin-top:3%;
+    }
+    #hsForm_6281d2c7-d210-480a-aba7-94c514a9aaa9 label{
+        font-size:27px;
+        margin-top:1%;
+    }
+    #hsForm_9afb5d99-2905-47f5-802d-799bf3e75f1f{
+        text-align: center;
+        background-color:rgba(0,0,0,0.6);
+        color:white;
+    }
+    #hsForm_9afb5d99-2905-47f5-802d-799bf3e75f1f input{
+        height:80px;
+        font-size:30px;
+        width:300px;
+    }
+    #hsForm_9afb5d99-2905-47f5-802d-799bf3e75f1f label{
+        font-size:40px;
+        color:white;
+    }
+    #hsForm_9afb5d99-2905-47f5-802d-799bf3e75f1f select{
+        height:80px;
+        font-size:30px;
+        width:300px;
+    }
+    #hsForm_9afb5d99-2905-47f5-802d-799bf3e75f1f .hs-button{
+        margin-top:3%;
+        margin-bottom:3%;
+        width:300px;
+        text-shadow: none;
+        background-color: #84bf5f;
+        color:white;
+        text-transform: uppercase;
+        background-image: none;
+        box-shadow: none;
+        border:none;
+        border-radius: 4px;
+        transition: none;
+    }
+}
+/*#endregion form HS*/
+
+
+.modal
+{
+    background: rgba(0,0,0,0.6);
+}

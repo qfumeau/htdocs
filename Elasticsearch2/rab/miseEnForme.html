@@ -1,0 +1,29 @@
+/*for($i=0;$i<count($test);$i++){
+    if($i!=count($test)-1){
+        $json = $json.'
+        "match" : {'.
+            $test[$i].'},';
+    }
+    else{
+        $json = $json.'
+        "match" : {'.
+            $test[$i].'}';
+    }
+        
+}
+$json=$json.'*/
+
+$json = '{
+    "query" : {
+        "bool" :{
+            "must": [
+                {
+                    "match" : { "testField" : "abc" }
+                },
+                {
+                    "match" : { "testField2" : "xyz" }
+                }
+            ]
+        }
+    }
+}';
